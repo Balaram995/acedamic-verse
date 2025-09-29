@@ -1,0 +1,9 @@
+s="malayalaz"
+i=0
+j= len(s)-1
+total=0
+while(i<=j):
+    total+=abs(ord(s[j])-ord(s[i]))
+    i+=1
+    j-=1
+print(total)
